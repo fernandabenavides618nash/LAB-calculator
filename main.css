@@ -1,0 +1,62 @@
+html {
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+  font-size: 2em;
+  background-color: #bbb;
+}
+.calculator {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 400px;
+  box-shadow: 0px 3px 10px 3px #aaa;
+  border-right: 0.01em solid #333;
+  border-bottom: 0.01em solid #333;
+}
+.result {
+  width: 100%;
+  background-color: #000;
+  min-height: 2em;
+  color: white;
+  height: 70px;
+  text-align: right;
+  text-justify: center;
+  padding-bottom: 30px;
+}
+.result > p {
+  padding: 0 1em;
+  text-align: right;
+  line-height: 2em;
+}
+button {
+  box-sizing: border-box;
+  text-align: center;
+  cursor: pointer;
+  width: 25%;
+  background-color: #ccc;
+  line-height: 2em;
+  border-top: 0.01em solid #333;
+  border-left: 0.01em solid #333;
+  height: 100px;
+  padding-top: 20px 0px 20px;
+  font-size:xx-large;
+}
+.operator {
+  background-color: #FF9500;
+  color: white;
+}
+.triple {
+  width: 75%;
+}
+
+.clear-grey {
+  background-color: #aaa;
+  width: 50%;
+}
+.clicked {
+  background-color: darken(orange, 10%);
+}  
